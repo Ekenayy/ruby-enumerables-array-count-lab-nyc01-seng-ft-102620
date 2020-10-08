@@ -11,6 +11,6 @@ def count_empty_strings(array)
     respond_to?(:empty?) ? empty? : !self
   end
   array.count do |empty_strings|
-  empty_strings = blank
+  empty_strings = blank?
   end
 end
